@@ -13,7 +13,7 @@
     <title>DocMall Shopping</title>
 
 <meta name="theme-color" content="#563d7c">
-//g123
+
 
     <style>
       .bd-placeholder-img {
