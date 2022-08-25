@@ -235,17 +235,18 @@
 
             }
           },
+          // ajax호출하여, 스프링에서 respone.sendError(400); 처리시.
           error: function(xhr, status, error) {
         	  
         	  console.log("ajax error");
         	  console.log("status: " + status);
-        	  location.href = "/member/login";
-        	  /*
+        	  //location.href = "/member/login";
+        	 
         	  if(status == 400) {
         		  
         		  location.href = "/member/login";
         	  }
-        	  */
+        	  
           }
         });
       });

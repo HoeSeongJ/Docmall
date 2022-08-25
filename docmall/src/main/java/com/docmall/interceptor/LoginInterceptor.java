@@ -14,9 +14,15 @@ import lombok.extern.log4j.Log4j;
 @Log4j
 public class LoginInterceptor extends HandlerInterceptorAdapter {
 
+	// return true -> controller 메서드 진행
+	// return false -> controller 메서드 진행안됨
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
+		
+		// jsp : requset.getParameter("userid")
+		
+		
 		
 		boolean result = false;
 		
